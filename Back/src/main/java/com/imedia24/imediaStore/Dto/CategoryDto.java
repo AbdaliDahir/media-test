@@ -3,8 +3,7 @@ package com.imedia24.imediaStore.Dto;
 import com.imedia24.imediaStore.Model.Category;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import java.util.List;
-import java.util.Set;
+import java.util.List; 
 
 import lombok.Builder;
 import lombok.Data;

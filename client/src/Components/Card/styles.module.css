@@ -1,0 +1,117 @@
+/***** CARD STYLES START *****/
+
+.card {
+  @apply
+  w-full
+  sm:w-1/2
+  md:w-1/2
+  xl:w-1/4
+  p-4
+}
+
+.cardLink {
+  @apply
+  block 
+  shadow-sm
+  hover:shadow-md
+  border-2
+  border-zinc-900/10
+  shadow-zinc-900/10
+  rounded-md 
+  overflow-hidden
+  h-full
+}
+
+/***** CARD HEADER STYLES START *****/
+
+.cardHeader {
+  @apply 
+  relative 
+  p-0 
+  overflow-hidden
+  shadow-sm
+  mb-4
+}
+
+/***** CARD IMAGE STYLES START *****/
+
+.cardImg {
+  @apply
+  h-56
+  w-full 
+  object-cover
+}
+
+.cardLink img {
+  transition: transform .3s ease-in-out; 
+}
+
+.cardLink img:hover {
+  transform: scale(1.02)
+}
+
+/***** CARD IMAGE STYLES START *****/
+
+/***** CARD HEADER STYLES END *****/
+
+/***** CARD BODY STYLES START *****/
+
+.cardBody {
+  @apply 
+  p-4 
+  h-full 
+  flex 
+  flex-1 
+  flex-col
+  text-sm
+  text-zinc-900/80
+}
+
+.cardBody .brand, .cardTitle {
+  @apply
+  mt-1
+  mb-2
+}
+
+.brand {
+  @apply  
+  font-bold 
+  hover:text-blue-600
+}
+
+.cardTitle {
+  @apply  
+  font-light 
+  truncate 
+}
+
+
+/***** PRICE STYLES START *****/
+
+.priceSub, .priceTop {
+  @apply
+  text-zinc-900/80
+}
+
+.priceSub {
+  @apply 
+  font-extralight  
+  text-xs
+  inline-block
+  align-sub
+}
+
+.priceTop {
+  @apply 
+  font-normal 
+  text-lg 
+  mx-0.5
+  inline-block
+  align-text-top
+}
+
+/***** PRICE STYLES END *****/
+
+/***** CARD BODY STYLES END *****/
+
+/***** CARD STYLES END *****/

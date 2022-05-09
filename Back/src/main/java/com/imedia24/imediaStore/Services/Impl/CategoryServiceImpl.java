@@ -54,7 +54,6 @@ public class CategoryServiceImpl implements CategoryService {
 	        .orElseThrow(() -> new NotFoundException("There is NO Category With ID = " + id));
 	  }
 	 
-
 	  @Override
 	  public List<CategoryDto> findAll() {
 	    return categoryRepository.findAll().stream()
@@ -62,8 +61,7 @@ public class CategoryServiceImpl implements CategoryService {
 	        .collect(Collectors.toList());
 	    
 	  }
-	  
-	  
+	   
 	  @Override
 	  public void delete(Integer id) {
 	    if (id == null) {
