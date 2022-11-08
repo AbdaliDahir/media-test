@@ -1,44 +1,4 @@
->[🇧🇷 In Portuguese](https://github.com/Throyer/springboot-api-crud/blob/master/assets/readme.md#spring-boot-api-crud)
->
-> [🐬 MySQL/MariaDB (outdated) implementation](https://github.com/Throyer/springboot-api-crud/tree/mariadb#readme)
-
-<p align="center">
-  <a href="https://github.com/Throyer" target="blank"><img src="./assets/images/tecnologias.png" width="560" alt="Tecnologias" /></a>
-</p>
-
-<h1 align="center">Spring Boot API RESTful</h1>
-<p align="center">
-  A complete user registry, with access permissions, JWT token, integration and unit tests, using the RESTful API pattern.
-</p>
-
-<br>
-<br>
-
-[**Live demo on heroku**](https://throyer-crud-api.herokuapp.com)
-
-<p align="center">
-  <a href="https://throyer-crud-api.herokuapp.com" target="blank"><img src="./assets/images/demo.gif" alt="Demonstration" /></a>
-</p>
-
-## Table of Contents
-
-- [Features](#features)
-- [Requirements](#requirements)
-- [Docker](#docker-examples)
-- [Local installation](#local-installation)
-- [Entities](#entities)
-- [Running a specific test](#tests)
-- [Swagger](#swagger)
-- [Database Migrations](#database-migrations)
-- [Environment variables](#environment-variables)
-
-# Features
-
-<p align="center">
-  <a href="https://throyer-crud-api.herokuapp.com" target="blank"><img src="./assets/images/features.jpeg"  alt="Tecnologias" /></a>
-</p>
-
-
+copy of crud spring boot app
 
 ## Requirements
 
@@ -202,4 +162,3 @@ Creating database migration files
 # Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Throyer/springboot-api-rest-example&type=Date)](https://star-history.com/#Throyer/springboot-api-rest-example)
-
